@@ -69,7 +69,7 @@ p { margin: 0 0 16px; color: var(--gray-700); }
   text-transform: uppercase;
   color: var(--black);
   background: transparent;
-  border:px solid var(--black);
+  border: 1px solid var(--black);
   padding: 6px 12px;
   margin-bottom: 18px;
 }
@@ -958,6 +958,21 @@ p { margin: 0 0 16px; color: var(--gray-700); }
   box-shadow: 0 12px 24px rgba(10, 10, 10, 0.12);
   border-color: var(--black);
 }
+.chip-marquee-group { margin-bottom: 40px; }
+.chip-marquee-group:last-child { margin-bottom: 0; }
+.chip-marquee {
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+}
+.chip-marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 12px;
+  animation: clients-scroll 28s linear infinite;
+}
+.chip-marquee:hover .chip-marquee-track { animation-play-state: paused; }
+.chip-marquee-track .parameter-chip { flex: 0 0 auto; white-space: nowrap; }
 
 /* ============ Contact page ============ */
 .contact-grid {
