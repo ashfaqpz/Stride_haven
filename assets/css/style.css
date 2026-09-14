@@ -931,31 +931,36 @@ p { margin: 0 0 16px; color: var(--gray-700); }
 .parameter-chip {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 12px 20px 12px 14px;
+  gap: 12px;
+  padding: 12px 18px 12px 12px;
   background: var(--white);
   border: 1px solid var(--gray-300);
-  border-radius: 999px;
+  border-left: 3px solid var(--black);
   font-weight: 700;
   font-size: 0.9rem;
   color: var(--black);
   transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
 }
 .parameter-chip .icon-badge {
-  width: 30px;
-  height: 30px;
-  background: var(--black);
-  color: var(--white);
-  border-radius: 999px;
+  width: 34px;
+  height: 34px;
+  background: var(--gray-50);
+  color: var(--black);
+  border: 1px solid var(--gray-300);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
 }
-.parameter-chip .icon-badge .icon { width: 16px; height: 16px; }
+.parameter-chip .icon-badge .icon { width: 17px; height: 17px; }
 .parameter-chip:hover {
   transform: translateY(-3px);
   box-shadow: 0 12px 24px rgba(10, 10, 10, 0.12);
+  border-color: var(--black);
+}
+.parameter-chip:hover .icon-badge {
+  background: var(--black);
+  color: var(--white);
   border-color: var(--black);
 }
 .chip-marquee-group { margin-bottom: 40px; }
