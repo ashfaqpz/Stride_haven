@@ -1086,8 +1086,23 @@ input.field-error, textarea.field-error {
   background: var(--gray-50);
 }
 
-.map-note {
+.map-embed {
   margin-top: 28px;
+  border: 1px solid rgba(255,255,255,0.25);
+  overflow: hidden;
+  line-height: 0;
+}
+.map-embed iframe {
+  width: 100%;
+  height: 220px;
+  border: 0;
+  display: block;
+  filter: grayscale(1) contrast(1.05);
+  transition: filter 0.2s ease;
+}
+.map-embed:hover iframe { filter: grayscale(0); }
+.map-note {
+  margin-top: 16px;
   padding: 20px;
   background: rgba(255,255,255,0.06);
   border: 1px solid rgba(255,255,255,0.25);
