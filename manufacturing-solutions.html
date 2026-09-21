@@ -21,7 +21,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "ProfessionalService"],
   "name": "Stride Haven Engineering Solutions FZE",
   "url": "https://www.stride-haven.com",
   "logo": "https://www.stride-haven.com/assets/img/logo.png",
@@ -30,8 +30,10 @@
     "@type": "PostalAddress",
     "streetAddress": "LV60B Phase 2, Hamriya Free Zone",
     "addressLocality": "Sharjah",
+    "postalCode": "4599",
     "addressCountry": "AE"
   },
+  "geo": {"@type": "GeoCoordinates", "latitude": 25.4614, "longitude": 55.5050},
   "areaServed": ["United Arab Emirates", "Middle East", "Africa"],
   "telephone": "+97165575684",
   "email": "info@stride-haven.com",
@@ -162,6 +164,40 @@
     </div>
   </div>
 </section>
+
+<section class="section section--gray">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Frequently Asked Questions</span>
+      <h2>Manufacturing questions we hear most</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>What does Stride Haven manufacture in-house?</h3>
+        <p>Analyzer panels, instrument panels and skid-mounted systems, manufactured in Sharjah, UAE.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do you offer factory acceptance testing?</h3>
+        <p>Yes. We provide FAT and inspection support ahead of shipment.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can you build to custom specifications?</h3>
+        <p>Yes. Fabrication is built to your drawings and specification, not off a fixed catalogue.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "What does Stride Haven manufacture in-house?", "acceptedAnswer": {"@type": "Answer", "text": "Analyzer panels, instrument panels and skid-mounted systems, manufactured in Sharjah, UAE."}},
+    {"@type": "Question", "name": "Do you offer factory acceptance testing?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We provide FAT and inspection support ahead of shipment."}},
+    {"@type": "Question", "name": "Can you build to custom specifications?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Fabrication is built to your drawings and specification, not off a fixed catalogue."}}
+  ]
+}
+</script>
 
 <section class="cta-banner">
   <div class="container">

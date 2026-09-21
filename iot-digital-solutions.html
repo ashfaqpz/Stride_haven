@@ -21,7 +21,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "ProfessionalService"],
   "name": "Stride Haven Engineering Solutions FZE",
   "url": "https://www.stride-haven.com",
   "logo": "https://www.stride-haven.com/assets/img/logo.png",
@@ -30,8 +30,10 @@
     "@type": "PostalAddress",
     "streetAddress": "LV60B Phase 2, Hamriya Free Zone",
     "addressLocality": "Sharjah",
+    "postalCode": "4599",
     "addressCountry": "AE"
   },
+  "geo": {"@type": "GeoCoordinates", "latitude": 25.4614, "longitude": 55.5050},
   "areaServed": ["United Arab Emirates", "Middle East", "Africa"],
   "telephone": "+97165575684",
   "email": "info@stride-haven.com",
@@ -155,6 +157,40 @@
     </div>
   </div>
 </section>
+
+<section class="section section--gray">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Frequently Asked Questions</span>
+      <h2>IoT &amp; digital questions we hear most</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>What IoT capabilities does Stride Haven offer?</h3>
+        <p>IoT gateways, cloud connectivity, remote dashboards and data analytics for process plants.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is this a mature offering or newly launched?</h3>
+        <p>It's a capability we are actively expanding, building on the PLC, SCADA and HMI automation we already deliver on-site, including moving toward AWS-hosted SCADA and monitoring platforms.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do you support predictive maintenance?</h3>
+        <p>Yes. We use trend data to flag maintenance needs before failure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "What IoT capabilities does Stride Haven offer?", "acceptedAnswer": {"@type": "Answer", "text": "IoT gateways, cloud connectivity, remote dashboards and data analytics for process plants."}},
+    {"@type": "Question", "name": "Is this a mature offering or newly launched?", "acceptedAnswer": {"@type": "Answer", "text": "It's a capability we are actively expanding, building on the PLC, SCADA and HMI automation we already deliver on-site, including moving toward AWS-hosted SCADA and monitoring platforms."}},
+    {"@type": "Question", "name": "Do you support predictive maintenance?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We use trend data to flag maintenance needs before failure."}}
+  ]
+}
+</script>
 
 <section class="cta-banner">
   <div class="container">
