@@ -1057,8 +1057,10 @@ input.field-error, textarea.field-error {
 .wf-body { padding: 22px 20px 26px; }
 .workflow-step h3 { font-size: 1.02rem; margin-bottom: 8px; }
 .workflow-step p { font-size: 0.86rem; color: var(--gray-700); margin-bottom: 0; }
+.workflow-row--4 { grid-template-columns: repeat(4, 1fr); }
 @media (max-width: 960px) {
   .workflow-row { grid-template-columns: repeat(3, 1fr); }
+  .workflow-row--4 { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 720px) {
   .workflow-row { grid-template-columns: 1fr; }
