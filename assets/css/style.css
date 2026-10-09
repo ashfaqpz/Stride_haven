@@ -647,6 +647,7 @@ p { margin: 0 0 16px; color: var(--gray-700); }
   height: 100%;
   object-fit: contain;
 }
+.client-item img.logo-invert { filter: invert(1); }
 .card-marquee {
   overflow: hidden;
   mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
