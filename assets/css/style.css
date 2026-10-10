@@ -440,6 +440,10 @@ p { margin: 0 0 16px; color: var(--gray-700); }
   object-position: center;
   display: block;
 }
+.card--product .product-photo-wrap--contain img {
+  object-fit: contain;
+  padding: 10px;
+}
 .card--product .product-photo-tag {
   position: absolute;
   left: 12px;
