@@ -952,7 +952,7 @@ input.field-error, textarea.field-error {
   padding-bottom: 48px;
   border-bottom: 1px solid rgba(255,255,255,0.15);
 }
-.footer-brand img { height: 44px; margin-bottom: 16px; background: var(--white); padding: 6px 10px; }
+.footer-brand > img { height: 44px; margin-bottom: 16px; background: var(--white); padding: 6px 10px; }
 .footer-brand p { font-size: 0.9rem; color: var(--gray-300); }
 .footer-col h4 {
   color: var(--white);
@@ -977,6 +977,17 @@ input.field-error, textarea.field-error {
   gap: 10px;
 }
 .footer-bottom a { color: var(--gray-500); }
+.footer-certifications {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+.footer-certifications img {
+  height: 44px;
+  width: auto;
+}
 .footer-bottom a:hover { color: var(--white); }
 
 /* ============ Responsive ============ */
