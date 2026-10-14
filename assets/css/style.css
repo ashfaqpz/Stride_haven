@@ -1064,6 +1064,7 @@ input.field-error, textarea.field-error {
 }
 @media (max-width: 720px) {
   .workflow-row { grid-template-columns: 1fr; }
+  .wf-photo { height: 220px; }
 }
 
 /* ---- Stat bar (light, for About) ---- */
