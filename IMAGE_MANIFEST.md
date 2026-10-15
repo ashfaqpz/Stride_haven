@@ -68,7 +68,7 @@ No SDI-specific product photo was added — HORIBA does not sell a dedicated SDI
 | HMI Systems card | Local (stock) | `assets/img/photos/hmi-control-panel.jpg` |
 | DCS Integration card | Local (stock) | `assets/img/photos/dcs-control-cabinet.jpg` |
 
-## IoT & Digital Solutions (iot-digital-solutions.html)
+## IIoT & Digital Solutions (iiot-solutions.html)
 
 | Position | Source | File / URL |
 |---|---|---|
