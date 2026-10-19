@@ -299,7 +299,7 @@ p { margin: 0 0 16px; color: var(--gray-700); }
 }
 .hero-inner {
   position: relative;
-  padding: 120px 0 100px;
+  padding: 150px 0 130px;
   max-width: 760px;
 }
 .hero-split {
@@ -308,7 +308,7 @@ p { margin: 0 0 16px; color: var(--gray-700); }
   gap: 40px;
   align-items: center;
   position: relative;
-  padding: 96px 0 72px;
+  padding: 126px 0 102px;
 }
 .hero-copy { max-width: 820px; }
 .hero-copy h1 { font-size: clamp(2rem, 3.4vw, 3rem); }
@@ -334,8 +334,8 @@ p { margin: 0 0 16px; color: var(--gray-700); }
   background-position: center;
   background-repeat: no-repeat;
   color: var(--white);
-  padding: 60px 0;
-  min-height: 380px;
+  padding: 80px 0;
+  min-height: 460px;
   display: flex;
   align-items: center;
   position: relative;
@@ -511,7 +511,7 @@ p { margin: 0 0 16px; color: var(--gray-700); }
 /* ============ Photo band ============ */
 .photo-band {
   position: relative;
-  min-height: 380px;
+  min-height: 460px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1027,8 +1027,8 @@ input.field-error, textarea.field-error {
   .partner-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
   .footer-grid { grid-template-columns: 1fr; }
   .hero-inner, .hero-split { padding: 80px 0 64px; }
-  .page-hero { padding: 48px 0; min-height: 260px; }
-  .photo-band { min-height: 240px; }
+  .page-hero { padding: 64px 0; min-height: 320px; }
+  .photo-band { min-height: 300px; }
   .footer-certifications img { height: 36px; }
   .form-card { border-left: 1px solid var(--black); }
   .contact-info-card { border-bottom: none; }
